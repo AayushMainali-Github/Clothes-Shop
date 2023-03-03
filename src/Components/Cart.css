@@ -1,0 +1,45 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 35% 0px;
+  justify-content: center;
+  gap: 30px;
+  background-color: rgb(228, 239, 248);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+.sub {
+  border-top: 1px solid rgb(95, 93, 93);
+  border-bottom: 1px solid rgb(95, 93, 93);
+}
+.subTotal {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  color: rgb(95, 93, 93);
+}
+.totalPrice {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  color: rgb(95, 93, 93);
+  font-weight: bold;
+  font-size: 22px;
+}
+.cart > button {
+  width: 85%;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 15px;
+  font-weight: 700;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: auto;
+}
+.cart > button:hover {
+  width: 90%;
+  background-color: rgb(210, 229, 245);
+  box-shadow: 0px 0px 10px 5px rgba(181, 197, 209, 0.694);
+}

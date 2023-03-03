@@ -1,0 +1,27 @@
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cartItem > span {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.cartItemImg {
+  height: 70px;
+  border: black solid 1px;
+}
+.quantity {
+  font-size: 16px;
+  font-weight: normal;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 1px 6px;
+  position: relative;
+  top: -33px;
+  left: -12px;
+  background-color: rgb(228, 239, 248);
+}

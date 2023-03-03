@@ -1,0 +1,42 @@
+.cloth {
+  background-color: rgb(228, 239, 248);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  transition: 0.3s;
+}
+.cloth:hover {
+  padding: 30px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.694);
+}
+.clothImg {
+  height: 300px;
+  border-radius: 20px;
+}
+.tpRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 700;
+}
+.addToCart {
+  width: 85%;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 15px;
+  font-weight: 700;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: auto;
+}
+.addToCart:hover {
+  width: 90%;
+  background-color: rgb(196, 228, 255);
+  box-shadow: 0px 0px 10px 5px rgba(181, 197, 209, 0.694);
+}
